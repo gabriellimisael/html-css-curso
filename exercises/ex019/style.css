@@ -1,0 +1,38 @@
+/* 
+Tudo o que em HTML for id
+em CSS é #
+Tudo o que em HTML for class
+em CSS é .
+*/
+
+
+body {
+    background-color: rgba(175, 198, 183, 0.522);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: rgba(3, 182, 66, 0.522);
+}
+
+h1#principal{
+    text-align: center;
+    background-color: rgba(3, 182, 66, 0.522);
+    color: white;
+}
+
+h2{
+    color: rgba(55, 123, 79, 0.522);
+}
+
+.basico{
+    color: chartreuse;
+}
+
+.intermediario{
+    color: yellow;
+}
+
+.avancado{
+    color: red;
+}

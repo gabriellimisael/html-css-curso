@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: cornflowerblue;
+        }
+        header {
+            background-color: rgba(150, 161, 182, 0.485);
+            padding: 10px;
+            margin: 10px;
+        }
+        main {
+            background-color: #686fb97b;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 5px 3px 7px 1px #57434362;
+        }
+        footer {
+            background-color: darkslateblue;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        article {
+            background-color: hsla(168, 6%, 31%, 0.755);
+        }
+        article > aside {
+            background-color: hsla(182, 37%, 33%, 0.679);
+        }
+        nav {
+            background-color: #686fb97b;
+            padding: 1px;
+            margin: 0px;
+            box-shadow: 5px 3px 7px 1px #57434362;
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin: 30px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <h1>Meu Site</h1>
+    <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+    </nav>
+</header>
+<main>
+<section id="assuntos">
+
+</section>
+<section id="noticias">
+<article>
+    <h2>Noticias sobre o Brasil</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum modi rem expedita eveniet error. Accusantium molestias quasi laboriosam cupiditate nesciunt, minima dicta, non aliquid et facilis, ullam iste distinctio nostrum.</p>
+    <aside><p>Artigo escrito por José da Silva</p></aside>
+</article>
+</section>
+</main>
+<footer>
+<p>Desenvolvido por Gabrielli Misael Santana</p>
+</footer>
+<div id="bola"></div>
+</body>
+</html>
