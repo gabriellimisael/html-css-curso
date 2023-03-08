@@ -5,16 +5,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercício de Tabelas</title>
+    <style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    caption {
+        font-size: 1.3em;
+        font-weight: bold;
+        padding: 10px;
+    }
+    td,th {
+        border: 1px solid black;
+        padding: 10px;
+    }
+    table {
+        border-collapse: collapse;
+        width: 400px;
+        text-align: center;}
+        col.cnome {
+            background-color: aqua;
+        }
+</style>
 </head>
 <body>
     <h1>Exercício de Tabela</h1>
     <table>
+        <colgroup>
+        <col class="cnome">
+        <col class="csexo">
+        <col class="cidade">
+        <col cprofi>
+    </colgroup>
         <caption>Cadastro</caption>
         <tr>
-            <th scope="col"></th>
-            <th scope="col"></th>
-            <th scope="col"></th>
-            <th scope="col"></th>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Gabrielli</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Analista de Sistemas</td>
+        </tr>
+        <tr>
+            <td>Raquel</td>
+            <td>F</td>
+            <td>31</td>
+            <td>Produção</td>
+        </tr>
+        <tr>
+            <td>Valeria</td>
+            <td>F</td>
+            <td>45</td>
+            <td>Administrativo</td>
         </tr>
     </table>
 </body>
